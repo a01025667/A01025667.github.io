@@ -1,0 +1,23 @@
+/* Selectores */
+h1 {
+    /* Atributos */
+    color: /*red*/ rgb(255, 166, 0); /* rgb=red-green-blue */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* Valores */
+} 
+
+
+h2 {
+    color: #00ff00; /* Hexadecimal */
+}
+
+#second_h1{
+    color: #488b89
+}
+
+.container{
+    border: 1px black solid;
+    margin: 10px;
+    padding: 10px;
+    
+}

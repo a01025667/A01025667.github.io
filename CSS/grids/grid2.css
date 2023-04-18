@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box; 
+  }
+  
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas:
+      "header header header"
+      "squares double double "
+      "squares . .";
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .grid-item {
+    padding: 10px;
+  }
+  
+  #grid-header {
+    grid-area: header;
+    background-color: #FDA061;
+  }
+  
+  #grid-square {
+    grid-area: squares;
+    background-color: #07A588;
+  }
+  
+  #grid-double {
+    grid-area: double;
+    background-color: #34DBBA;
+  }
+  
+ #item4 {
+    background-color: #FC6057
+  }
+  
+  #item5 {
+    background-color: #FDA061;
+  }

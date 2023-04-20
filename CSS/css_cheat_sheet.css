@@ -1,23 +1,190 @@
-/* Selectores */
+
 h1 {
-    /* Atributos */
-    color: /*red*/ rgb(255, 166, 0); /* rgb=red-green-blue */
+    color: black; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /* Valores */
+    
 } 
 
-
-h2 {
-    color: #00ff00; /* Hexadecimal */
-}
-
-#second_h1{
-    color: #488b89
-}
-
-.container{
-    border: 1px black solid;
-    margin: 10px;
-    padding: 10px;
+.border {
+    border: 5px black solid;
+    padding: 20px;
     
 }
+
+.borders {
+    border-left: 1mm dashed;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 0.4rem solid; 
+    border-right: thick double black;
+    border-bottom: 2mm ridge rgba(21, 21, 6, 0.6);;
+}
+
+.border_r {
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px 100px / 120px;
+    border: 2mm black solid;
+}
+
+.background {
+    margin-top: 20px;
+    background-image: url("../avila.jpeg");
+    padding: 20px;
+
+}
+
+.color {
+    color: #347147;
+    padding: 20px;
+}
+
+.font {
+    padding: 20px;
+    font: 1em "Lucida Console", monospace;
+}
+
+.font_f {
+    padding: 20px;
+}
+
+.font_f1{
+    font-family: Tahoma, Verdana, sans-serif;
+}
+
+.font_sw {
+    padding: 20px;
+}
+
+.font_sw1 {
+    font-style: oblique;
+}
+
+.font_sw2 {
+    font-weight: 800;
+}
+
+.w_h {
+    margin: 20px;
+    background-color: darkseagreen;
+    width: 500px;
+    height: 160px;
+    padding: 20px;
+}
+
+.list {
+    padding: 20px;
+}
+
+.list_s {
+    list-style: circle;
+    
+}
+
+.margin {
+    margin: 20px 60px;
+    padding: 20px;
+    border: 5px black solid 
+    
+    
+    
+}
+
+.padding {
+    padding: 20px 80px;
+    border: 5px solid #488b89;
+}
+
+.overflow {
+    padding: 20px;
+}
+
+.scroll{
+    border: black solid;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    overflow: scroll;
+}
+
+.clip {
+    border: black solid;
+    padding: 10px;
+    width: 200px;
+    height: 50px;
+    overflow: clip;
+}
+.display {
+    padding: 20px;
+}
+.grid-container {
+    display: grid;
+    padding: 2px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #56386099;
+}
+
+.grid-item {
+    margin: 10px;
+    background-color: #c4b9c4cc;
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.position {
+    padding: 20px;
+}
+
+.pos1 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background: rgb(20, 119, 119);
+    color: white;
+}
+
+.pos2 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background: rgb(69, 147, 147);
+    color: white;
+    position: relative;
+    top: -100px; left: 40px;
+}
+
+.pos3 {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background: rgb(107, 184, 184);
+    color: white;
+    position: relative;
+    top: -200px; left: 80px;
+}
+
+.filter {
+    margin-top: -250px;
+    padding: 20px;
+}
+.img1 {
+    width: 400px;
+    filter: blur(3px);
+}
+
+.img2 {
+    margin-top: 10px;
+    width: 400px;
+    filter: grayscale(100%);
+}
+
+.img3 {
+    margin-top: 10px;
+    width: 400px;
+    filter: hue-rotate(300deg);
+}
+

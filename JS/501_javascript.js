@@ -18,3 +18,4 @@ function norep(cad)
         }
     }
 }
+consloq.log(norep('abacddbec'));

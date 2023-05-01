@@ -12,10 +12,14 @@ function norep(cad)
         {
             cont[cad[i]] = 1;
         }
+    }
+    for (let i = 0; i < cad.length; i ++)
+    {
         if (cont[cad[i]] === 1)
         {
             console.log(cad[i]);
         }
     }
 }
+norep('abacddbec')
 console.log(norep('abacddbec'));

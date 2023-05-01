@@ -18,4 +18,4 @@ function norep(cad)
         }
     }
 }
-consloq.log(norep('abacddbec'));
+console.log(norep('abacddbec'));
